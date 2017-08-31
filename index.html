@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Twitch API Call</title>
+    <link rel="stylesheet" href="./styles.css" media="screen" title="mainCSS" charset="utf-8">
+    <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="./bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="./app.js" async></script>
+  </head>
+  <body>
+    <div class="container">
+
+      <h1>Twitch Stream Information</h1>
+      <div id="filter">
+        <button id="all" disabled>All</button>
+        <button id="active">Active</button>
+        <button id="offline">Offline</button>
+      </div>
+      <div id="allChannels">
+
+        <div class="channel" id="esl_sc2">
+          <a href="https://www.twitch.tv/esl_sc2" target="_newtab">Esl_Sc2</a>
+          <section id="esl_sc2Info" class="info">
+
+          </section>
+        </div>
+
+        <div class="channel" id="freecodecamp">
+          <a href="https://www.twitch.tv/freecodecamp" target="_newtab">FreeCodeCamp</a>
+          <section id="FCCInfo" class="info">
+
+          </section>
+        </div>
+
+        <div class="channel" id="culprate">
+          <a href="https://www.twitch.tv/culprate" target="_newtab">Culprate</a>
+          <section id="culprateInfo" class="info">
+
+          </section>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
